@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Time Log Reminder",
+  "version": "0.0.3",
+  "author": "j. redhead",
+  "description": "Simply reminds you to fill out your time log.",
+
+  "icons": {
+    "48": "icon.svg"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  // do i need storage? maybe 
+  "permissions": ["alarms", "notifications"],
+
+  "options_ui": {
+    //"page": "options.html"
+  }
+}
